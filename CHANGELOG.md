@@ -1,68 +1,41 @@
-# change log
-
-## desc
-
-starting
-
-## deps
-
-- [x] sh-lib-str
-- [x] sh-lib-arr
-- [x] sh-lib-txt
-- [ ] sh-lib-time-cost
-- [x] sh-lib-path-resolve
-- [x] sh-lib-num-base-bc
-- [ ] sh-lib-test
-- [ ] sh-lib-fun
-
-## apis
-
-- [x] nw_cidr_to_mask
-- [x] nw_cidr_from_mask
-- [x] nw_cidr_to_host_bits
-- [x] nw_cidr_from_host_bits
-- [x] nw_mask_ini
-- [x] nw_mask_cimi_sum
-- [x] nw_mask_from_cidr
-- [x] nw_mask_to_cidr
-- [x] nw_mask_get
-- [x] nw_mask_add
-- [x] nw_mask_del
-- [x] nw_mask_is
-- [x] nw_mask_type_is
-- [x] nw_ip_get
-- [x] nw_ip_add
-- [x] nw_ip_del
-- [x] nw_ip_is
-- [x] nw_ip_type_is
-- [x] nw_ip_private_is
-- [x] nw_ip_addr_broad_from_net
-- [x] nw_ip_addr_net_from_host
-- [x] nw_ip_addr_hostid
-- [x] nw_ip_format_to_bin
-- [x] nw_ip_addr_net_to_cidr
-- [x] nw_sub_num_to_bits
-- [x] nw_sub_bits_to_num
-- [x] nw_sub_bits_to_mask
-- [x] nw_sub_mask_to_bits
-- [x] nw_sub_bits_to_cidr
-- [x] nw_sub_cidr_to_bits
-- [x] nw_sub_host_bits_to_num
-- [x] nw_sub_host_num_to_bits
-- [x] nw_sub_host_bits_to_cidr
-- [x] nw_sub_host_cidr_to_bits
-- [x] nw_sub_know_from_list
-- [x] nw_sub_know_set
-- [x] nw_sub_know_get
-- [x] nw_sup_know_from_list
-- [x] nw_sup_know_set
-- [x] nw_sup_know_get
+##  (2021-07-22)
 
 
-## feat
 
-- [x] basic operation for `cidr`
-- [x] basic operation for `mask`
-- [x] basic operation for `sub`
-- [x] basic operation for `sup`
-- [x] apis begins with ns `nw/sup/sub/mask/cidr`
+
+## <small>2.0.1 (2021-07-22)</small>
+
+* fix(core): mov test from src to test/unit ([cb09360](https://github.com/YMC-GitHub/sh-lib-nw-fun/commit/cb09360))
+
+
+
+## 2.0.0 (2021-07-22)
+
+* refactor(core): mov test from src to test/unit ([8845760](https://github.com/YMC-GitHub/sh-lib-nw-fun/commit/8845760))
+
+
+
+## 1.0.0 (2020-06-13)
+
+* docs(basic): init README ([434c90a](https://github.com/YMC-GitHub/sh-lib-nw-fun/commit/434c90a))
+* docs(changelog): init CHANGELOG ([a8764bf](https://github.com/YMC-GitHub/sh-lib-nw-fun/commit/a8764bf))
+* docs(refer): init REFERENCE ([3f22fd0](https://github.com/YMC-GitHub/sh-lib-nw-fun/commit/3f22fd0))
+* build(dev): init dev-api ([65918ab](https://github.com/YMC-GitHub/sh-lib-nw-fun/commit/65918ab))
+* build(git): init git ([c6f793b](https://github.com/YMC-GitHub/sh-lib-nw-fun/commit/c6f793b))
+* build(license): init license ([b48560e](https://github.com/YMC-GitHub/sh-lib-nw-fun/commit/b48560e))
+* build(style): init editorconfig ([75a32e6](https://github.com/YMC-GitHub/sh-lib-nw-fun/commit/75a32e6))
+* feat(core): init index ([257771c](https://github.com/YMC-GitHub/sh-lib-nw-fun/commit/257771c))
+* feat(core): init nw-cc ([f7081b8](https://github.com/YMC-GitHub/sh-lib-nw-fun/commit/f7081b8))
+* feat(core): init nw-cidr ([e4f5a01](https://github.com/YMC-GitHub/sh-lib-nw-fun/commit/e4f5a01))
+* feat(core): init nw-ip ([862de8e](https://github.com/YMC-GitHub/sh-lib-nw-fun/commit/862de8e))
+* feat(core): init nw-mask ([06ca965](https://github.com/YMC-GitHub/sh-lib-nw-fun/commit/06ca965))
+* feat(core): init nw-sub ([8b1c2d8](https://github.com/YMC-GitHub/sh-lib-nw-fun/commit/8b1c2d8))
+* feat(core): init nw-sup ([62261e2](https://github.com/YMC-GitHub/sh-lib-nw-fun/commit/62261e2))
+* test(core): init nw-cc ([0a2c46c](https://github.com/YMC-GitHub/sh-lib-nw-fun/commit/0a2c46c))
+* test(core): init nw-ip ([0beff03](https://github.com/YMC-GitHub/sh-lib-nw-fun/commit/0beff03))
+* test(core): init nw-mask ([428c9eb](https://github.com/YMC-GitHub/sh-lib-nw-fun/commit/428c9eb))
+* test(core): init nw-sub ([bf91dc9](https://github.com/YMC-GitHub/sh-lib-nw-fun/commit/bf91dc9))
+* test(core): init nw-sub ([15dc78e](https://github.com/YMC-GitHub/sh-lib-nw-fun/commit/15dc78e))
+
+
+
