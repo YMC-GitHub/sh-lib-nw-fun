@@ -5,7 +5,7 @@ THIS_FILE_PATH=$(
   pwd
 )
 THIS_FILE_NAME=$(basename $0)
-source "$THIS_FILE_PATH/sh-lib-nw.sup.know.sh"
+source "$THIS_FILE_PATH/../../src/sh-lib-nw.sup.know.sh"
 
 
 #已知：
@@ -59,5 +59,6 @@ addres=$(nw_ip_addr_net_from_host "$addres" "$mask")
 #nw_ip_addr_net_from_host "$mask" "$addres"
 echo "addres:$addres"
 
+# file usage
 #echo "$THIS_FILE_NAME"
-# src/test.sh-lib-nw.sup.know.sh
+# test/unit/nw.sup.know.sh

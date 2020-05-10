@@ -5,7 +5,7 @@ THIS_FILE_PATH=$(
   pwd
 )
 THIS_FILE_NAME=$(basename $0)
-source "$THIS_FILE_PATH/sh-lib-nw.sub.know.sh"
+source "$THIS_FILE_PATH/../../src/sh-lib-nw.sub.know.sh"
 
 #已知：
 #网络地址
@@ -363,4 +363,5 @@ nw_sub_know_case_03
 # 哪些合法子网
 # 子网 网络地址 子网掩码 主机地址 广播地址 主机数量
 
-# src/test.sh-lib-nw.sub.know.sh
+# file usage
+# test/unit/nw.sub.know.sh

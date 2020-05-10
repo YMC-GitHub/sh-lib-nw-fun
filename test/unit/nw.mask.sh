@@ -4,8 +4,7 @@ THIS_FILE_PATH=$(
   cd $(dirname $0)
   pwd
 )
-source "$THIS_FILE_PATH/config.project.dir.map.sh"
-source "$SRC_PATH/sh-lib-nw.mask.sh"
+source "$THIS_FILE_PATH/../../src/sh-lib-nw.mask.sh"
 
 #echo "val:"
 #echo "${mask_cidr_dic[*]}"
@@ -37,5 +36,5 @@ nw_mask_type_is "255.255.255.252"
 nw_mask_type_is "255.255.252.0"
 nw_mask_type_is "255.252.0.0"
 nw_mask_type_is "252.0.0.0"
-# file
-# src/test.sh-lib-nw.mask.sh
+# file usage
+# test/unit/nw.mask.sh
