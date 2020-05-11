@@ -4,7 +4,7 @@ THIS_FILE_PATH=$(
   cd $(dirname $0)
   pwd
 )
-source "$THIS_FILE_PATH/../../src/sh-lib-nw.cc.sh"
+source "$THIS_FILE_PATH/../../src/nw.cc.sh"
 
 
 echo "#debug-已知子网数量，获子网位数:"

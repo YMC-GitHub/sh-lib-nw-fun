@@ -6,8 +6,8 @@ THIS_FILE_PATH=$(
   pwd
 )
 source "$THIS_FILE_PATH/config.project.dir.map.sh"
-source "$SRC_PATH/sh-lib-num-base-bc.sh"
-source "$SRC_PATH/sh-lib-str.sh"
+source "$SRC_PATH/num-base-bc.sh"
+source "$SRC_PATH/str.sh"
 
 declare -A nw_ip_dic
 nw_ip_dic=()
@@ -290,4 +290,4 @@ echo $cidr
 }
 
 # file
-# src/sh-lib-nw.ip.sh
+# src/nw.ip.sh

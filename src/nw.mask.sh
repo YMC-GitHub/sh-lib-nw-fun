@@ -180,4 +180,4 @@ function nw_mask_type_is(){
 nw_mask_ini
 
 # file
-# src/sh-lib-nw.mask.sh
+# src/nw.mask.sh

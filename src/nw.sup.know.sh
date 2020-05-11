@@ -5,11 +5,11 @@ THIS_FILE_PATH=$(
   pwd
 )
 source "$THIS_FILE_PATH/config.project.dir.map.sh"
-source "$SRC_PATH/sh-lib-txt.sh"
-source "$SRC_PATH/sh-lib-nw.mask.sh"
-source "$SRC_PATH/sh-lib-nw.cidr.sh"
-#source "$SRC_PATH/sh-lib-nw.sub.sh"
-source "$SRC_PATH/sh-lib-nw.ip.sh"
+source "$SRC_PATH/txt.sh"
+source "$SRC_PATH/nw.mask.sh"
+source "$SRC_PATH/nw.cidr.sh"
+#source "$SRC_PATH/nw.sub.sh"
+source "$SRC_PATH/nw.ip.sh"
 
 declare -A nw_sup_know_dic
 #nw_sup_know_dic=()
@@ -39,4 +39,4 @@ function nw_sup_know_get(){
  echo "$val"
 }
 
-# src/sh-lib-nw.sup.know.sh
+# src/nw.sup.know.sh

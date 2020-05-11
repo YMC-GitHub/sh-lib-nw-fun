@@ -4,7 +4,7 @@ THIS_FILE_PATH=$(
   cd $(dirname $0)
   pwd
 )
-source "$THIS_FILE_PATH/../../src/sh-lib-nw.mask.sh"
+source "$THIS_FILE_PATH/../../src/nw.mask.sh"
 
 #echo "val:"
 #echo "${mask_cidr_dic[*]}"

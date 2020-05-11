@@ -4,7 +4,7 @@ THIS_FILE_PATH=$(
   cd $(dirname $0)
   pwd
 )
-source "$THIS_FILE_PATH/../../src/sh-lib-nw.ip.sh"
+source "$THIS_FILE_PATH/../../src/nw.ip.sh"
 
 nw_ip_is "192.168.0.1"
 nw_ip_is "255.255.255.256"

@@ -5,7 +5,7 @@ THIS_FILE_PATH=$(
   pwd
 )
 THIS_FILE_NAME=$(basename $0)
-source "$THIS_FILE_PATH/../../src/sh-lib-nw.sub.know.sh"
+source "$THIS_FILE_PATH/../../src/nw.sub.know.sh"
 
 #已知：
 #网络地址

@@ -42,7 +42,7 @@ sh_code=$(cat <<EOF
   $arr_name=(\${txt//$spilt_char/ })
   for key in \${!$arr_name[@]}; do
     val=\${$arr_name[\$key]}
-    val=$(echo "\$val" | sed "s/$CHAR_OLD/$CHAR_NEW/g")
+    val=\$(echo "\$val" | sed "s/$CHAR_OLD/$CHAR_NEW/g")
     $arr_name[\$key]="\$val"
   done
 EOF
@@ -123,4 +123,4 @@ echo "${#dic[@]}"
 
 
 # file usage
-# ./src/sh-lib-txt.sh
+# ./src/txt.sh

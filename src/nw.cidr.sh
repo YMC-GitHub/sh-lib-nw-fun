@@ -97,4 +97,4 @@ function nw_cidr_from_host_bits(){
 
 
 # file
-# src/sh-lib-nw.cidr.sh
+# src/nw.cidr.sh

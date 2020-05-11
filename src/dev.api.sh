@@ -6,17 +6,17 @@ THIS_FILE_PATH=$(
 )
 THIS_FILE_NAME=$(basename $0)
 #source "$THIS_FILE_PATH/config.project.dir.map.sh"
-#source "$SRC_PATH/sh-lib-txt.sh"
+#source "$SRC_PATH/txt.sh"
 
-source "$THIS_FILE_PATH/sh-lib-txt.sh"
+source "$THIS_FILE_PATH/txt.sh"
 
 txt=$(cat <<EOF
-sh-lib-nw.cidr.sh
-sh-lib-nw.mask.sh
-sh-lib-nw.ip.sh
-sh-lib-nw.sub.sh
-sh-lib-nw.sub.know.sh
-sh-lib-nw.sup.know.sh
+nw.cidr.sh
+nw.mask.sh
+nw.ip.sh
+nw.sub.sh
+nw.sub.know.sh
+nw.sup.know.sh
 EOF
 )
 txt_list_to_arr "$txt" "arr"

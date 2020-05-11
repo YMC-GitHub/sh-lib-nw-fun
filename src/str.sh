@@ -536,4 +536,4 @@ function str_fill() {
 
 # file usage
 # ./index.sh
-# ./src/sh-lib-str.sh
+# ./src/str.sh

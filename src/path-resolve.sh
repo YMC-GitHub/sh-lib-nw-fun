@@ -131,6 +131,6 @@ function path_resolve() {
 # path_resolve "/app/src" "/d" #it will return "/d"
 
 ## file-usage
-# ./sh-lib-path-resolve.sh
+# ./path-resolve.sh
 # or
-# source ./sh-lib-path-resolve.sh
+# source ./path-resolve.sh
