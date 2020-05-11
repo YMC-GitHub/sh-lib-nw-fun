@@ -3,6 +3,13 @@
 
 
 
+## 2.1.0 (2021-07-22)
+
+* refator(core): rename files from sh-lib-xx to xx ([1e2b7fc](https://github.com/YMC-GitHub/sh-lib-nw-fun/commit/1e2b7fc))
+* docs(core): update changelog for v2.0.1 ([6a9055d](https://github.com/YMC-GitHub/sh-lib-nw-fun/commit/6a9055d))
+
+
+
 ## <small>2.0.1 (2021-07-22)</small>
 
 * fix(core): mov test from src to test/unit ([cb09360](https://github.com/YMC-GitHub/sh-lib-nw-fun/commit/cb09360))
