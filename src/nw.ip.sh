@@ -1,13 +1,7 @@
 #!/bin/sh
 
-
-THIS_FILE_PATH=$(
-  cd $(dirname $0)
-  pwd
-)
-source "$THIS_FILE_PATH/config.project.dir.map.sh"
-source "$SRC_PATH/num-base-bc.sh"
-source "$SRC_PATH/str.sh"
+mod_require_2 "${PROJECT_PATH}/src/num-base-bc.sh"
+mod_require_2 "${PROJECT_PATH}/src/str.sh"
 
 declare -A nw_ip_dic
 nw_ip_dic=()

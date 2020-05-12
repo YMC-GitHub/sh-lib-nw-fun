@@ -5,10 +5,8 @@ THIS_FILE_PATH=$(
   pwd
 )
 THIS_FILE_NAME=$(basename $0)
-#source "$THIS_FILE_PATH/config.project.dir.map.sh"
-#source "$SRC_PATH/txt.sh"
 
-source "$THIS_FILE_PATH/txt.sh"
+source "$THIS_FILE_PATH/../../src/txt.sh"
 
 txt=$(cat <<EOF
 nw.cidr.sh
@@ -27,4 +25,4 @@ do
 done
 
 
-#src/dev.api.sh
+#tools/dev-er/gen.sh.api.sh

@@ -1,11 +1,6 @@
 #!/bin/sh
 
-THIS_FILE_PATH=$(
-  cd $(dirname $0)
-  pwd
-)
-THIS_FILE_NAME=$(basename $0)
-source "$THIS_FILE_PATH/../../src/nw.sub.know.sh"
+source "${SRC_PATH}/nw.sub.know.sh"
 
 #已知：
 #网络地址

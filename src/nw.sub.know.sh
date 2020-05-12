@@ -1,18 +1,13 @@
 #!/bin/sh
 
-THIS_FILE_PATH=$(
-  cd $(dirname $0)
-  pwd
-)
-source "$THIS_FILE_PATH/config.project.dir.map.sh"
-source "$SRC_PATH/txt.sh"
-source "$SRC_PATH/nw.mask.sh"
-source "$SRC_PATH/nw.cidr.sh"
-source "$SRC_PATH/nw.sub.sh"
-source "$SRC_PATH/nw.ip.sh"
+mod_require_2 "${PROJECT_PATH}/src/txt.sh"
+mod_require_2 "${PROJECT_PATH}/src/nw.mask.sh"
+mod_require_2 "${PROJECT_PATH}/src/nw.cidr.sh"
+mod_require_2 "${PROJECT_PATH}/src/nw.sub.sh"
+mod_require_2 "${PROJECT_PATH}/src/nw.ip.sh"
 
 declare -A nw_sub_know_dic
-#nw_sub_know_dic=()
+nw_sub_know_dic=()
 
 function nw_sub_know_from_list(){
   local txt=

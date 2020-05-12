@@ -1,6 +1,8 @@
 #!/bin/sh
+
 declare -A mask_cidr_dic
 mask_cidr_dic=()
+
 function nw_mask_ini(){
   local mask=
   local cidr=
@@ -9,7 +11,6 @@ function nw_mask_ini(){
       mask=$(nw_mask_from_cidr "$cidr")
       nw_mask_add "$cidr" "$mask"
   done
-
 }
 
 ###

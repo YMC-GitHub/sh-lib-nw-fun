@@ -1,10 +1,8 @@
 #!/bin/sh
 
-THIS_FILE_PATH=$(
-  cd $(dirname $0)
-  pwd
-)
-source "$THIS_FILE_PATH/../../src/nw.mask.sh"
+#mod_require_2 "${SRC_PATH}/nw.mask.sh"
+
+source "${SRC_PATH}/nw.mask.sh"
 
 #echo "val:"
 #echo "${mask_cidr_dic[*]}"
@@ -36,5 +34,6 @@ nw_mask_type_is "255.255.255.252"
 nw_mask_type_is "255.255.252.0"
 nw_mask_type_is "255.252.0.0"
 nw_mask_type_is "252.0.0.0"
+
 # file usage
 # test/unit/nw.mask.sh

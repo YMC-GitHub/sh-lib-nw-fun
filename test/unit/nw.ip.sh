@@ -1,10 +1,6 @@
 #!/bin/sh
-
-THIS_FILE_PATH=$(
-  cd $(dirname $0)
-  pwd
-)
-source "$THIS_FILE_PATH/../../src/nw.ip.sh"
+mod_require_2 "${SRC_PATH}/nw.ip.sh"
+#mod_load_auto
 
 nw_ip_is "192.168.0.1"
 nw_ip_is "255.255.255.256"

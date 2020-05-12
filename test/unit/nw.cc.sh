@@ -1,10 +1,5 @@
 #!/bin/sh
-
-THIS_FILE_PATH=$(
-  cd $(dirname $0)
-  pwd
-)
-source "$THIS_FILE_PATH/../../src/nw.cc.sh"
+mod_require_2 "${SRC_PATH}/nw.cc.sh"
 
 
 echo "#debug-已知子网数量，获子网位数:"
