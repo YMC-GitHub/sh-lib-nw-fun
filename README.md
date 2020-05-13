@@ -94,7 +94,7 @@ src/dev.api.sh
 # run test
 # test file is ./src/test*.sh
 # eg.
-./src/test.sh-lib-nw.sub.know.sh
+./test/index.sh
 #2 get some fail test
 #./src/test.sh | grep "it is false"
 ```
