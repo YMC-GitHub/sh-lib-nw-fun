@@ -3,13 +3,14 @@
 
 
 
-## 2.0.0 (2021-07-22)
+## 3.0.0 (2021-07-22)
 
+* refactor(core): mov test from src to test/unit ([8845760](https://github.com/YMC-GitHub/sh-lib-nw-fun/commit/8845760))
+* refactor(core): use mod load ([df69801](https://github.com/YMC-GitHub/sh-lib-nw-fun/commit/df69801))
 * docs(core): update changelog for v2.0.1 ([6a9055d](https://github.com/YMC-GitHub/sh-lib-nw-fun/commit/6a9055d))
 * docs(core): update changelog for v2.1.0 ([95d24cf](https://github.com/YMC-GitHub/sh-lib-nw-fun/commit/95d24cf))
 * refator(core): rename files from sh-lib-xx to xx ([1e2b7fc](https://github.com/YMC-GitHub/sh-lib-nw-fun/commit/1e2b7fc))
 * fix(core): mov test from src to test/unit ([cb09360](https://github.com/YMC-GitHub/sh-lib-nw-fun/commit/cb09360))
-* refactor(core): mov test from src to test/unit ([8845760](https://github.com/YMC-GitHub/sh-lib-nw-fun/commit/8845760))
 
 
 
